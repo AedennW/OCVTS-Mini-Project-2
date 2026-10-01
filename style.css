@@ -1,0 +1,8 @@
+header {
+    display: flex;
+    flex-direction: row;
+    gap: 1485px;
+}
+header nav a {
+    text-decoration: none;
+}
