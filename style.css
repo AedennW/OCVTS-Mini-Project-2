@@ -1,8 +1,59 @@
-header {
-    display: flex;
-    flex-direction: row;
-    gap: 1485px;
+body {
+    margin: 0; /* gets rid of the empty space around the page */
+    font-family: Arial, sans-serif; /* makes the text easier to read */
+    background-color: rgb(247, 238, 111);
 }
+
+header {
+    background-color: rgba(253, 236, 0, 0.918);
+    color:white;
+    height:50px;
+    display: flex; /* puts stuff in a row */
+    align-items: center; /* keeps things lined up in the middle */
+    gap:15px;
+    flex-direction: row;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0px 15px;
+}
+
+header nav {
+    margin-left:auto;
+}
+
 header nav a {
     text-decoration: none;
+    font-size: 25px;
+    color:white;
+}
+header img {
+    border: 2px solid rgb(0, 0, 0); /* black outline */
+    border-color: white;
+    border-radius: 8%; /* makes the logo round */
+    object-fit: cover; /* keeps the image from stretching */
+    margin-left:10px;
+}
+
+
+.coolness {
+    display: flex;
+    color: white;
+    justify-content:center;
+}
+.hebrew {
+    border-radius: 50px;
+    width: 750px;
+    height: 400px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dry {
+    color: white;
+}
+
+.description {
+    font-size: 25px;
+    color: white;
+    text-decoration: underline;
 }
